@@ -1,0 +1,10 @@
+{
+	"type":"RECORD_DEFINE",
+	"subtype":"WRITE",
+	"mode":"INT"
+}
+{
+	"record_no":"001",
+	"segment":"drawback_info",
+	"text":"NO"
+}
