@@ -1,0 +1,9 @@
+{
+	"type":"GENERAL_RETURN",
+	"subtype":"STRING",
+	"mode":"INT"
+}
+{
+	"name":"zhanlao",
+	"return_value":"123",
+}
