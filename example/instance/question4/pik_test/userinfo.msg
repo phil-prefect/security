@@ -1,0 +1,9 @@
+{
+	"type":"TCM_PIK_DESC",
+	"subtype":"USERINFO",
+	"mode":"INT"
+}
+{
+	"username":"zhaowen",
+	"user_role":"user"
+}
