@@ -1,9 +1,0 @@
-{
-	"type":"GENERAL_RETURN",
-	"subtype":"STRING",
-	"mode":"INT"
-}
-{
-	"name":"remote_keyset",	
-	"return_value":"zhaowen",
-}
