@@ -1,0 +1,60 @@
+time: 0.0 :read 3 elem from file /home/eric/security/cube-1.3/proc/main/base_define/namelist.json!
+
+time: 0.000164 :read 4 elem from file /home/eric/security/cube-1.3/proc/main/base_define/dispatchnamelist.json!
+
+time: 0.000239 :read 1 elem from file /home/eric/security/cube-1.3/proc/main/base_define/typelist.json!
+
+time: 0.000462 :read 7 elem from file /home/eric/security/cube-1.3/proc/main/base_define/subtypelist.json!
+
+time: 0.000577 :read 1 elem from file /home/eric/security/cube-1.3/proc/main/base_define/baseflag.json!
+
+time: 0.000848 :read 3 elem from file /home/eric/security/cube-1.3/proc/main/base_define/memdb.json!
+
+time: 0.001486 :read 7 elem from file /home/eric/security/cube-1.3/proc/main/base_define/msghead.json!
+
+time: 0.001803 :read 2 elem from file /home/eric/security/cube-1.3/proc/main/base_define/msgrecord.json!
+
+time: 0.002124 :read 3 elem from file /home/eric/security/cube-1.3/proc/main/base_define/expandrecord.json!
+
+time: 0.002695 :read 10 elem from file /home/eric/security/cube-1.3/proc/main/base_define/base_msg.json!
+
+time: 0.003173 :read 8 elem from file /home/eric/security/cube-1.3/proc/main/base_define/return.json!
+
+time: 0.003465 :read 3 elem from file /home/eric/security/cube-1.3/proc/main/base_define/dispatchrecord.json!
+
+time: 0.003660 :read 2 elem from file /home/eric/security/cube-1.3/proc/main/base_define/exmoduledefine.json!
+
+time: 0.003822 :read 1 elem from file /home/eric/security/cube-1.3/proc/main/base_define/sys_conn.json!
+
+time: 0.007290 :read 5 elem from file record_define.json!
+time: 0.015413 :this machine's local uuid is 4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41fe142e57a420e7b103f
+
+time: 0.021254 :read 1 policy from router_policy file!
+time: 0.021371 :prepare the router proc
+
+time: 0.030119 :prepare the conn proc
+
+time: 0.030286 :monitor ex_modulec router_proc started successfully!
+
+time: 0.030422 :monitor ex_modulec websocket_channel started successfully!
+
+time: 0.030541 :monitor ex_modulec echo started successfully!
+
+time: 0.030717 :monitor ex_modulec msg2channel started successfully!
+
+time: 69.983278 :websocket_channel write 504 Data!
+time: 69.983860 :msg2channel read 504 data
+time: 69.989261 :router get proc msg2channel's message 
+time: 69.989357 :new msg match path echo's policy
+time: 69.994908 :router get proc echo's message 
+time: 69.995268 :msg2channel write 745 data
+time: 69.997499 :websocket_channel : Get 745 data from websocekt_channel！
+time: 69.997693 :websocket_channel read 4 Data!
+time: 158.138399 :websocket_channel write 503 Data!
+time: 158.139061 :msg2channel read 503 data
+time: 158.143836 :router get proc msg2channel's message 
+time: 158.143910 :new msg match path echo's policy
+time: 158.149239 :router get proc echo's message 
+time: 158.150364 :msg2channel write 744 data
+time: 158.153394 :websocket_channel : Get 744 data from websocekt_channel！
+time: 158.153487 :websocket_channel read 4 Data!
