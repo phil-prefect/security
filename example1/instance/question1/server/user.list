@@ -1,0 +1,21 @@
+{
+	"type":"USER_DEFINE",
+	"subtype":"SERVER_STATE"
+}
+
+{
+	"user_name":"zhaowe",
+	"passwd":"123",
+	"role":"SKER"
+}
+{
+	"user_name":"zhanle",
+	"passwd":"123",
+	"role":"ASSISTANT"
+}
+
+{
+	"user_name":"zhanlao",
+	"passwd":"123",
+	"role":"CLIENT"
+}
