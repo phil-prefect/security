@@ -1,0 +1,10 @@
+{
+	"type":"TCM_KEY_MANAGE",
+	"subtype":"PRIVATE_KEY",
+	"mode":"INT"
+}
+{
+	"issmkwrapped":1,
+	"key_usage":"TCM_SM2KEY_SIGNING",
+	"key_flags":"TCM_PCRIGNOREDONREAD",
+}
