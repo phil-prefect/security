@@ -1,9 +1,0 @@
-{
-	"type":"RECORD_DEFINE",
-	"subtype":"SEND",
-	"mode":"INT"
-}
-{
-	"record_no":"001",
-	"receiver":"zhaowen"
-}
