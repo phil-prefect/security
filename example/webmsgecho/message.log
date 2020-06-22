@@ -1,0 +1,70 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg2channel","receiver_uuid
+    ":"echo","route":"echo","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    1,"rjump":1,"record_type":"RECORD_DEFINE","record_subtype":"RECORD","record_num"
+    :1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"80b3af31be8a89d55e
+    9cb9e8094d7e1f7929950845989cde7e114239f0734fc5"},
+"RECORD":[
+    {"user_name":"eric","user_password":"123","record_no":"","commodity_news":"单�
+        �","number_info":"1","commodity_prices":"300￥","address_info":"北京","paymen
+        t_info":"","application_for_drawback_info":"","drawback_info":"","a_return_reque
+        st_info":"","return_info":"","delivery_info":"","take_delivery_info":"","complet
+        e_info":"","evaluate_info":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"echo","receiver_uuid":"msg2
+    channel","route":"echo","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    2,"rjump":1,"record_type":"RECORD_DEFINE","record_subtype":"RECORD","record_num"
+    :1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"80b3af31be8a89d55e
+    9cb9e8094d7e1f7929950845989cde7e114239f0734fc5"},
+"RECORD":[
+    {"user_name":"eric","user_password":"123","record_no":"","commodity_news":"单�
+        �","number_info":"1","commodity_prices":"300￥","address_info":"北京","paymen
+        t_info":"","application_for_drawback_info":"","drawback_info":"","a_return_reque
+        st_info":"","return_info":"","delivery_info":"","take_delivery_info":"","complet
+        e_info":"","evaluate_info":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg2channel","receiver_uuid
+    ":"echo","route":"echo","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    1,"rjump":1,"record_type":"RECORD_DEFINE","record_subtype":"RECORD","record_num"
+    :1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"ef13ee82bbd32c2fd4
+    4072884607adcfbbab594241bf9f8b35a672415da4cbba"},
+"RECORD":[
+    {"user_name":"eric","user_password":"123","record_no":"","commodity_news":"cycle
+        ","number_info":"1","commodity_prices":"300￥","address_info":"北京","payment
+        _info":"","application_for_drawback_info":"","drawback_info":"","a_return_reques
+        t_info":"","return_info":"","delivery_info":"","take_delivery_info":"","complete
+        _info":"","evaluate_info":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"echo","receiver_uuid":"msg2
+    channel","route":"echo","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    2,"rjump":1,"record_type":"RECORD_DEFINE","record_subtype":"RECORD","record_num"
+    :1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"ef13ee82bbd32c2fd4
+    4072884607adcfbbab594241bf9f8b35a672415da4cbba"},
+"RECORD":[
+    {"user_name":"eric","user_password":"123","record_no":"","commodity_news":"cycle
+        ","number_info":"1","commodity_prices":"300￥","address_info":"北京","payment
+        _info":"","application_for_drawback_info":"","drawback_info":"","a_return_reques
+        t_info":"","return_info":"","delivery_info":"","take_delivery_info":"","complete
+        _info":"","evaluate_info":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************

@@ -1,0 +1,90 @@
+time: 0.001430 :read 3 elem from file /home/student/cube-1.3/proc/main/base_define/namelist.json!
+time: 0.001698 :read 4 elem from file /home/student/cube-1.3/proc/main/base_define/dispatchnamelist.json!
+time: 0.001814 :read 1 elem from file /home/student/cube-1.3/proc/main/base_define/typelist.json!
+time: 0.002272 :read 7 elem from file /home/student/cube-1.3/proc/main/base_define/subtypelist.json!
+time: 0.002373 :read 1 elem from file /home/student/cube-1.3/proc/main/base_define/baseflag.json!
+time: 0.002947 :read 3 elem from file /home/student/cube-1.3/proc/main/base_define/memdb.json!
+time: 0.004324 :read 7 elem from file /home/student/cube-1.3/proc/main/base_define/msghead.json!
+time: 0.004955 :read 2 elem from file /home/student/cube-1.3/proc/main/base_define/msgrecord.json!
+time: 0.006117 :read 10 elem from file /home/student/cube-1.3/proc/main/base_define/base_msg.json!
+time: 0.007071 :read 8 elem from file /home/student/cube-1.3/proc/main/base_define/return.json!
+time: 0.007661 :read 3 elem from file /home/student/cube-1.3/proc/main/base_define/dispatchrecord.json!
+time: 0.008044 :read 2 elem from file /home/student/cube-1.3/proc/main/base_define/exmoduledefine.json!
+time: 0.008315 :read 1 elem from file /home/student/cube-1.3/proc/main/base_define/sys_conn.json!
+time: 0.009551 :read 9 elem from file user_define.json!
+time: 0.010509 :read 5 elem from file record_define.json!
+time: 0.019793 :this machine's local uuid is 4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41fe142e57a420e7b103f
+
+time: 0.025473 :read 1 connector!
+
+time: 0.025875 :read 3 policy from router_policy file!
+time: 0.026067 :system plugin router_proc is prepared!
+time: 0.033610 :system plugin connector_proc is prepared!
+time: 0.033843 :ex_module connector_proc started successfully!
+time: 0.033898 :ex_module router_proc started successfully!
+time: 0.033948 :ex_module msg_send started successfully!
+time: 0.033988 :ex_module login_user started successfully!
+time: 0.034025 :ex_module print started successfully!
+time: 0.034037 :instance load 5 module!
+
+time: 0.034078 :begin msgfile_send module!
+
+time: 0.034207 :client user_client connect succeed!
+
+time: 0.040643 :proc conn client receive 269 data!
+
+time: 0.040816 :send 326 data to conn user_client!
+
+time: 0.040825 :client user_client send 326 ack data to server !
+
+time: 0.045520 :router get proc connector_proc's message 
+time: 1.038201 :router get proc msg_send's message 
+time: 1.038270 :new msg match path login's policy
+time: 1.044140 :router get proc login_user's message 
+time: 1.044366 :send message to conn process!
+time: 1.044590 :send 284 data to conn user_client!
+
+time: 1.044612 :send (16896  1)message 284 to conn user_client!
+
+time: 1.060768 :proc conn client receive 217 data!
+
+time: 1.065849 :router get proc connector_proc's message 
+time: 1.065911 :remote msg match path login's policy
+time: 1.071138 :router get proc login_user's message 
+time: 1.071186 :new msg match path challenge's policy
+time: 1.071332 :send message to conn process!
+time: 1.071619 :send 284 data to conn user_client!
+
+time: 1.071644 :send (16896  1)message 284 to conn user_client!
+
+time: 1.103441 :proc conn client receive 232 data!
+
+time: 1.107848 :router get proc connector_proc's message 
+time: 1.107906 :remote msg match path challenge's policy
+time: 1.113203 :user zhanlao login succeed!
+time: 1.113370 :router get proc login_user's message 
+time: 1.119016 :router get proc print's message 
+time: 1.236117 :router get proc msg_send's message 
+time: 1.236147 :new msg match path record's policy
+time: 1.236241 :send message to conn process!
+time: 1.236397 :send 207 data to conn user_client!
+
+time: 1.236410 :send (12816  3)message 207 to conn user_client!
+
+time: 1.267980 :proc conn client receive 237 data!
+
+time: 1.272458 :router get proc connector_proc's message 
+time: 1.272516 :remote msg match path record's policy
+time: 1.277944 :router get proc print's message 
+time: 1.435980 :router get proc msg_send's message 
+time: 1.436061 :new msg match path record's policy
+time: 1.436189 :send message to conn process!
+time: 1.436417 :send 184 data to conn user_client!
+
+time: 1.436451 :send (12816  2)message 184 to conn user_client!
+
+time: 1.468757 :proc conn client receive 204 data!
+
+time: 1.473009 :router get proc connector_proc's message 
+time: 1.473048 :remote msg match path record's policy
+time: 1.478595 :router get proc print's message 

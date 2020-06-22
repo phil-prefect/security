@@ -1,0 +1,354 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"user_lab
+    el","route":"addr_init","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    1,"rjump":1,"record_type":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,
+    "record_size":146,"expand_num":0,"expand_size":0,"msg_uuid":"e594ae93e32e46cb1b8
+    bf5617d0438abc741cb7a09b2970db23039a6ff3aa5d9"},
+"RECORD":[
+    {"uuid":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41fe142e57a420e7b103f","clie
+        nt_name":"user3","client_proc":"user3","client_addr":"unknown addr","server_uuid
+        ":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41fe142e57a420e7b103f","server_nam
+        e":"server","service":"trust_server","server_addr":"","flags":0,"nonce":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"user_label","receiver_uuid"
+    :"","route":"addr_init","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    2,"rjump":1,"record_type":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,
+    "record_size":146,"expand_num":0,"expand_size":0,"msg_uuid":"e594ae93e32e46cb1b8
+    bf5617d0438abc741cb7a09b2970db23039a6ff3aa5d9"},
+"RECORD":[
+    {"uuid":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41fe142e57a420e7b103f","clie
+        nt_name":"user3","client_proc":"user3","client_addr":"unknown addr","server_uuid
+        ":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41fe142e57a420e7b103f","server_nam
+        e":"server","service":"trust_server","server_addr":"","flags":0,"nonce":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"login_server","route":"l
+    ogin","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"record_
+    type":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":104,"e
+    xpand_num":0,"expand_size":0,"msg_uuid":"024a22c90084bab155f60bdac6dc1e3d02a450c
+    9835459d18ec80f05b9211beb"},
+"RECORD":[
+    {"user_name":"zhanlao","passwd":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","p
+        roc_name":"user3","machine_uuid":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41f
+        e142e57a420e7b103f"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"login_server","receiver_uui
+    d":"41498ebdd2ee256699066ba9ad73270ba6e4c0a4e94853ec4d96dada89b5d8f1","route":"l
+    ogin","flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":2,"recor
+    d_type":"USER_DEFINE","record_subtype":"RETURN","record_num":1,"record_size":0,"
+    expand_num":0,"expand_size":0,"msg_uuid":"024a22c90084bab155f60bdac6dc1e3d02a450
+    c9835459d18ec80f05b9211beb"},
+"RECORD":[
+    {"return_code":"CHALLENGE","nonce":"gWJZKU69Nj+2t/s8ybbh3Z7ZCPhX9/9Zs6A2sI/Acb4"
+        ,"return_info":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"login_server","route":"c
+    hallenge","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"rec
+    ord_type":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":10
+    4,"expand_num":0,"expand_size":0,"msg_uuid":"0ad5d02d1d8b857c36af4dbcce8f0d2be2a
+    599b28a422b029c2bdfeca782c4fd"},
+"RECORD":[
+    {"user_name":"zhanlao","passwd":"g3Dnifh0nVjNU5z6DzF1Hr1ROQEqYTO6WyAjyj0Bj3w","p
+        roc_name":"user3","machine_uuid":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41f
+        e142e57a420e7b103f"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"user_label","route":"add
+    r_label","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":1,"reco
+    rd_type":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":104
+    ,"expand_num":0,"expand_size":0,"msg_uuid":"476aef4abb429e475da6d1da23218d60e72c
+    5f72dcc55d2da87999c5ea89becd"},
+"RECORD":[
+    {"user_name":"zhanlao","passwd":"g3Dnifh0nVjNU5z6DzF1Hr1ROQEqYTO6WyAjyj0Bj3w","p
+        roc_name":"user3","machine_uuid":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41f
+        e142e57a420e7b103f"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"login_server","route":"c
+    hallenge","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"rec
+    ord_type":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":10
+    4,"expand_num":1,"expand_size":0,"msg_uuid":"0ad5d02d1d8b857c36af4dbcce8f0d2be2a
+    599b28a422b029c2bdfeca782c4fd"},
+"RECORD":[
+    {"user_name":"zhanlao","passwd":"g3Dnifh0nVjNU5z6DzF1Hr1ROQEqYTO6WyAjyj0Bj3w","p
+        roc_name":"user3","machine_uuid":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41f
+        e142e57a420e7b103f"}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"ADDR","expand":
+        {"node_uuid":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41fe142e57a420e7b103f",
+            "proc_name":"user3","user_name":"zhanlao","role":"NULL"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"login_server","receiver_uui
+    d":"41498ebdd2ee256699066ba9ad73270ba6e4c0a4e94853ec4d96dada89b5d8f1","route":"c
+    hallenge","flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":2,"r
+    ecord_type":"USER_DEFINE","record_subtype":"RETURN","record_num":1,"record_size"
+    :0,"expand_num":1,"expand_size":0,"msg_uuid":"0ad5d02d1d8b857c36af4dbcce8f0d2be2
+    a599b28a422b029c2bdfeca782c4fd"},
+"RECORD":[
+    {"return_code":"SUCCEED","nonce":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","
+        return_info":"login succeed!
+"}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"ADDR","expand":
+        {"node_uuid":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41fe142e57a420e7b103f",
+            "proc_name":"user3","user_name":"zhanlao","role":"NULL"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"login_server","receiver_uui
+    d":"user_label","route":"addr_verify","flow":"QUERY","state":"MATCH","flag":"LOC
+    AL","ljump":1,"rjump":1,"record_type":"USER_DEFINE","record_subtype":"RETURN","r
+    ecord_num":1,"record_size":0,"expand_num":1,"expand_size":0,"msg_uuid":"22b322d1
+    acc6669b3f1958bc664cd2a99426d244bd2f94ca3333664a882c24f5"},
+"RECORD":[
+    {"return_code":"SUCCEED","nonce":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","
+        return_info":"login succeed!
+"}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"ADDR","expand":
+        {"node_uuid":"4e001bbf5c16bf5cc1d31429472e82ff7868916d2fd41fe142e57a420e7b103f",
+            "proc_name":"user3","user_name":"zhanlao","role":"NULL"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"login_server","receiver_uui
+    d":"41498ebdd2ee256699066ba9ad73270ba6e4c0a4e94853ec4d96dada89b5d8f1","route":"c
+    hallenge","flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":2,"r
+    ecord_type":"USER_DEFINE","record_subtype":"RETURN","record_num":1,"record_size"
+    :0,"expand_num":0,"expand_size":0,"msg_uuid":"0ad5d02d1d8b857c36af4dbcce8f0d2be2
+    a599b28a422b029c2bdfeca782c4fd"},
+"RECORD":[
+    {"return_code":"SUCCEED","nonce":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","
+        return_info":"login succeed!
+"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"record_server","route":"
+    record","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"recor
+    d_type":"RECORD_DEFINE","record_subtype":"WRITE","record_num":1,"record_size":27
+    ,"expand_num":0,"expand_size":0,"msg_uuid":"ab354b678920c81d535fbe7e2658d52e1b60
+    8c9ed77149ee23acb2afc5b309f5"},
+"RECORD":[
+    {"record_no":"001","segment":"commodity_news","text":"clothes"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"user_label","route":"wri
+    te_access","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":1,"re
+    cord_type":"RECORD_DEFINE","record_subtype":"WRITE","record_num":1,"record_size"
+    :27,"expand_num":0,"expand_size":0,"msg_uuid":"4b3783c680fc82c45886b73d2b932c5f4
+    5f4b5f9927f8c50d2db3e5320618b89"},
+"RECORD":[
+    {"record_no":"001","segment":"commodity_news","text":"clothes"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"user_label","receiver_uuid"
+    :"record_acl","route":"write_access","flow":"QUERY","state":"MATCH","flag":"LOCA
+    L","ljump":2,"rjump":1,"record_type":"RECORD_DEFINE","record_subtype":"WRITE","r
+    ecord_num":1,"record_size":27,"expand_num":1,"expand_size":0,"msg_uuid":"4b3783c
+    680fc82c45886b73d2b932c5f45f4b5f9927f8c50d2db3e5320618b89"},
+"RECORD":[
+    {"record_no":"001","segment":"commodity_news","text":"clothes"}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"USER","expand":
+        {"user_name":"zhanlao","role":"CLIENT"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"record_server","route":"
+    record","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"recor
+    d_type":"RECORD_DEFINE","record_subtype":"WRITE","record_num":1,"record_size":27
+    ,"expand_num":0,"expand_size":0,"msg_uuid":"ab354b678920c81d535fbe7e2658d52e1b60
+    8c9ed77149ee23acb2afc5b309f5"},
+"RECORD":[
+    {"record_no":"001","segment":"commodity_news","text":"clothes"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"record_server","receiver_uu
+    id":"41498ebdd2ee256699066ba9ad73270ba6e4c0a4e94853ec4d96dada89b5d8f1","route":"
+    record","flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":2,"rec
+    ord_type":"USER_DEFINE","record_subtype":"RETURN","record_num":1,"record_size":0
+    ,"expand_num":0,"expand_size":0,"msg_uuid":"ab354b678920c81d535fbe7e2658d52e1b60
+    8c9ed77149ee23acb2afc5b309f5"},
+"RECORD":[
+    {"return_code":"SUCCEED","nonce":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","
+        return_info":"write data succeed!
+"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"record_server","route":"
+    record","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"recor
+    d_type":"RECORD_DEFINE","record_subtype":"READ","record_num":1,"record_size":4,"
+    expand_num":0,"expand_size":0,"msg_uuid":"9418cda3fa4e0b395bf71afbb7778041c06dca
+    5ada1211755ff2516fd14e9378"},
+"RECORD":[
+    {"record_no":"001"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"user_label","route":"lab
+    el_read","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":1,"reco
+    rd_type":"RECORD_DEFINE","record_subtype":"READ","record_num":1,"record_size":4,
+    "expand_num":0,"expand_size":0,"msg_uuid":"22f0576f479131187e1509ee533803b3497b8
+    a2ad0eb9451546f8bd04dd3cc22"},
+"RECORD":[
+    {"record_no":"001"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"41498ebdd2ee256699066ba9ad7
+    3270ba6e4c0a4e94853ec4d96dada89b5d8f1","receiver_uuid":"record_server","route":"
+    record","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"recor
+    d_type":"RECORD_DEFINE","record_subtype":"READ","record_num":1,"record_size":4,"
+    expand_num":1,"expand_size":0,"msg_uuid":"9418cda3fa4e0b395bf71afbb7778041c06dca
+    5ada1211755ff2516fd14e9378"},
+"RECORD":[
+    {"record_no":"001"}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"USER","expand":
+        {"user_name":"zhanlao","role":"CLIENT"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"record_server","receiver_uu
+    id":"41498ebdd2ee256699066ba9ad73270ba6e4c0a4e94853ec4d96dada89b5d8f1","route":"
+    record","flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":2,"rec
+    ord_type":"RECORD_DEFINE","record_subtype":"RECORD","record_num":1,"record_size"
+    :0,"expand_num":1,"expand_size":0,"msg_uuid":"9418cda3fa4e0b395bf71afbb7778041c0
+    6dca5ada1211755ff2516fd14e9378"},
+"RECORD":[
+    {"record_no":"001","commodity_news":"clothes","number_info":"","commodity_prices
+        ":"","address_info":"","payment_info":"","application_for_drawback_info":"","dra
+        wback_info":"","a_return_request_info":"","return_info":"","delivery_info":"","t
+        ake_delivery_info":"","complete_info":"","evaluate_info":""}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"USER","expand":
+        {"user_name":"zhanlao","role":"CLIENT"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"record_server","receiver_uu
+    id":"record_acl","route":"read_access","flow":"QUERY","state":"MATCH","flag":"LO
+    CAL","ljump":1,"rjump":1,"record_type":"RECORD_DEFINE","record_subtype":"RECORD"
+    ,"record_num":1,"record_size":0,"expand_num":1,"expand_size":0,"msg_uuid":"085af
+    e8a8cd5c08fa52e46a10c18f50e78fd714d6c84a4a79f07e7c2bc688a0a"},
+"RECORD":[
+    {"record_no":"001","commodity_news":"clothes","number_info":"","commodity_prices
+        ":"","address_info":"","payment_info":"","application_for_drawback_info":"","dra
+        wback_info":"","a_return_request_info":"","return_info":"","delivery_info":"","t
+        ake_delivery_info":"","complete_info":"","evaluate_info":""}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"USER","expand":
+        {"user_name":"zhanlao","role":"CLIENT"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"record_server","receiver_uu
+    id":"41498ebdd2ee256699066ba9ad73270ba6e4c0a4e94853ec4d96dada89b5d8f1","route":"
+    record","flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":2,"rec
+    ord_type":"RECORD_DEFINE","record_subtype":"RECORD","record_num":1,"record_size"
+    :0,"expand_num":0,"expand_size":0,"msg_uuid":"9418cda3fa4e0b395bf71afbb7778041c0
+    6dca5ada1211755ff2516fd14e9378"},
+"RECORD":[
+    {"record_no":"001","commodity_news":"clothes","number_info":"","commodity_prices
+        ":"","address_info":"","payment_info":"","application_for_drawback_info":"","dra
+        wback_info":"","a_return_request_info":"","return_info":"","delivery_info":"","t
+        ake_delivery_info":"","complete_info":"","evaluate_info":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
