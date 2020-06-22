@@ -1,9 +1,0 @@
-{
-	"type":"GENERAL_RETURN",
-	"subtype":"STRING",
-	"mode":"INT"
-}
-{
-	"name":"zhaowe",
-	"return_value":"123",
-}
